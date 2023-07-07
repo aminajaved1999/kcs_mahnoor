@@ -1,0 +1,85 @@
+
+.login{
+ display: grid;
+ place-items: center;
+}
+.bg{
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.5); 
+  background-image: url('bb.png');
+}
+.navbar{
+  background-color: #228B22;
+  font-family: cursive ;
+}
+.nav-link{
+  color: white;
+  border-right: 1px white solid;
+}
+.navbar-text{
+  color: white;
+}
+.box{
+  background-color: #ECFFDC;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height:250px;
+  position: relative;
+}
+.mini,.dropdown.p-calendar-w-btn{
+  border: none;
+  border-bottom: 1px solid #228B22 ;
+  font-family: cursive;
+  width: 100%;
+  
+  
+}
+#dropdown{
+  width: 100%;
+  border: none;
+  height: 0px;
+
+}
+.small{
+  height: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 35px;
+  position: relative;
+}
+
+.input1{
+ top: 30%;
+}
+.input2{
+  top: 50%;
+ }
+ .input3{
+  top: 70%;
+ }
+ .input1,.input2,.input3{
+  border: none;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  border-bottom: 1px solid  #228B22;
+ }
+ .cal,.del,.save{
+  border: none;
+  background-color: #228B22;
+  color: white;
+  position: absolute;
+  top: 20%;
+ }
+ .cal,.save{
+  left: 90%;
+ }
+ .del{
+  left: 95%;
+ }
+.p-calendar-w-btn{
+
+}
